@@ -35,6 +35,8 @@ stories.innerHTML=count;
 stories.addEventListener("click",function(dets){
     screen.style.display="block";
     screen.style.backgroundImage=`url(${arr[dets.target.id].story})`;
-})
-
+    setTimeout(function(dets){
+    screen.style.display="none";
+    },3000);
+});
 

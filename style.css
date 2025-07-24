@@ -19,6 +19,7 @@ body{
    background-color: white;
    border-radius: 30px;
    border: 4px solid black;
+   position: inherit;
 }
  .stories{
     width: 100%;
@@ -41,10 +42,16 @@ body{
     border: 3px solid rgb(235, 33, 33);
     display: inline-block;
     overflow: hidden;
+    margin: 5px;
 }
 .story img{
     width: 80px;
     height: 80px;
     object-fit: cover;
     object-position: top;
+}
+.fullscreen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
